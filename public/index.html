@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Report</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: #f0f4f8;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            text-align: center;
+            padding: 30px 20px;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            padding: 20px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: #1e3c72;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header .btn {
+            background: white;
+            color: #1e3c72;
+            border: 1px solid #1e3c72;
+            border-radius: 20px;
+            padding: 5px 15px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .card-header .btn:hover {
+            background: #1e3c72;
+            color: white;
+        }
+
+        .footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            margin-top: 30px;
+        }
+
+        .footer a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Analysis Report
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                Submissions
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Domains
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Compromised Hosts
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Hosts
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Extracted Files
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Verdict
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Processes
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Mitre Attacks
+                <button class="btn">Show</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Signatures
+                <button class="btn">Show</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        All rights reserved to <a href="#">Amine BACHANE</a> & BlueSec
+    </div>
+
+</body>
+</html>
