@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
-    
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.1.0",
     "autoprefixer": "^10.4.20",
     "lucide-react": "^0.469.0",
     "postcss": "^8.4.49",

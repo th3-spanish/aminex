@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Products from './components/Products';
 import Footer from './components/Footer';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const App = () => {
   return (
@@ -15,10 +16,12 @@ const App = () => {
           <>
             <Hero />
             <Products />
+            <SpeedInsights/>
           </>
         } />
       </Routes>
       <Footer />
+      
     </div>
   );
 };
