@@ -3,6 +3,7 @@ import React from 'react';
 import chat from '../assets/chat.jpg'
 import jobo from  '../assets/jobo.png'
 import dmat from '../assets/dmat1.png'
+import emsb from '../assets/emsb.png'
 
 
 // src/components/Products.jsx
@@ -42,8 +43,14 @@ const Products = () => {
     {
         title: 'Realtime Chat Application',
         description: 'Developed a scalable messaging platform using React.js and Socket.io, enabling seamless instant communication with an innovative, user-friendly interface.',
-        link: 'https://project1.com',
+        link: 'https://www.chatapp.aminex.com',
         image: chat
+      },
+      {
+        title: 'EMS Body Workout',
+        description: 'EmsBodyworkout.com stands as an informative platform showcasing a revolutionary fitness alternative harnessing the power of EMS (Electrical Muscle Stimulation) technology where you can hire home trainers aswell.',
+        link: 'https://www.emsbodyworkout.com',
+        image: emsb
       },
       
     // Add more products here
